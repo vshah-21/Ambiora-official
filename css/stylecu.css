@@ -23,7 +23,7 @@ body
 h2
 {
     text-align: center;
-    font-size: 45px;
+    font-size: 100px;
     color: white;
     font-family: 'Azonix', sans-serif;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -96,3 +96,24 @@ h5
 {
     margin: -41px 20px 0px 10px;
 }
+
+@media screen and (max-width: 1120px) {
+    .Profiles {
+        transform: scale(0.8);
+    }
+    h2 {
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .Profiles {
+        transform: scale(0.6);
+    }
+    h2 {
+        font-size: 50px;
+    }
+}
+
+
