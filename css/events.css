@@ -123,13 +123,15 @@
     display: flex;
   }
   .sch{
-    padding-top: 10%;
-    font-size: 70px;
-    margin-left:55%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 100px;
+  
     font-family: Azonix;
     color: whitesmoke;
+    text-align: center;
   }
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:640px) {
     .container{
         display: block;
     }
@@ -140,8 +142,21 @@
         width: 90%;
     }
     .sch{
-        margin-left: 15%;
+        font-size: 50px;
     }
   }
+
+  @media screen and (min-width: 641px) and (max-width: 1007px) {
+    .sch{
+      font-size: 75px;
+  }
+}
+
+@media screen and (min-width:1008px) {
+  .sch{
+    font-size: 100px;
+}
+}
+
   
   
