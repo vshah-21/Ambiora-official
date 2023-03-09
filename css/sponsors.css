@@ -18,12 +18,12 @@ dl {
 .heading h1
 {
 
-    display: flex;
+    
     justify-content: top;
     color: white;
-    font-family: 'Azonix', sans-serif; 
-    font-size: 85px;  
-    padding-left: 650px;                                          
+    font-family: 'Azonix'; 
+    font-size: 100px;  
+    text-align: center;                                          
 }
 
 .all
@@ -281,4 +281,22 @@ dl {
     z-index: 2;
     color: rgb(255, 255, 255);
     font-size: 10em;
+}
+
+@media screen and (max-width:640px) {
+    .heading h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    .heading h1 {
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width:1008px) {
+    .heading h1 {
+        font-size: 100px;
+    }
 }
