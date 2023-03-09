@@ -97,22 +97,31 @@ h5
     margin: -41px 20px 0px 10px;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width:640px) {
     .Profiles {
-        transform: scale(0.8);
+        transform: scale(0.45);
     }
     h2 {
-        font-size: 70px;
+        font-size: 50px;
     }
     
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 641px) and (max-width: 1007px) {
     .Profiles {
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
     h2 {
-        font-size: 50px;
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width:1008px) {
+    .Profiles {
+        transform: scale(1.0);
+    }
+    h2 {
+        font-size: 100px;
     }
 }
 
