@@ -67,51 +67,47 @@ body {
     -webkit-text-fill-color: #fff;
 }
 
-@media screen and (min-width: 721px) {
+@media screen and (max-width:640px) {
     h1 {
-      font-size: 100px;
-      padding-bottom: 70px;
+        font-size: 50px;
     }
-    .slider {
-        transform: scale(1.0);
+    body {
+        background-image: url("https://raw.githubusercontent.com/kunalp03/Ambiora-official/main/images/sgallerybg.png");
+        min-height:100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        align-items: center;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 641px) and (max-width: 1007px) {
     h1 {
-      font-size: 70px;
-      padding-bottom: 70px; 
-    }  
-    .slider {
-        transform: scale(1.0);
-    } 
-}
-
-@media screen and (min-width: 1281px) {
-    h1 {
-        padding-bottom: 120px;
-        font-size: 120px;
+        font-size: 75px;
     }
-    .slider {
-        transform: scale(1.0);
+    body {
+        background-image: url("https://raw.githubusercontent.com/kunalp03/Ambiora-official/main/images/sgallerybg.png");
+        min-height:100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        align-items: center;
     }
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1008px) {
     h1 {
-        padding-bottom: 150px;
+        font-size: 100px;
     }
-    .slider {
-        transform: scale(1.4);
+    body {
+        background-image: url("https://raw.githubusercontent.com/kunalp03/Ambiora-official/main/images/sgallerybg.png");
+        min-height:100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        align-items: center;
     }
 }
-
-@media screen and (min-width: 3000px) {
-    h1 {
-        padding-bottom: 300px;
-    }
-    .slider {
-        transform: scale(1.8);
-    }
-}
-
