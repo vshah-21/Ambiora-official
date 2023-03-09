@@ -53,7 +53,7 @@ body {
 }
 
 .gallery {
-    background-image: url("https://github.com/kunalp03/Ambiora-official/blob/main/images/gallerybg.png");
+    background-image: url("https://raw.githubusercontent.com/kunalp03/Ambiora-official/main/images/gallerybg.png");
     align-items: center;
     width: 100%;
     background-repeat: no-repeat;
