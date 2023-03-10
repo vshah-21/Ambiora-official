@@ -16,7 +16,7 @@
   }
   
   body {
-      background: #dfebed;
+      background: rgb(20, 19, 61);
       font-family: 'Roboto', sans-serif;
   }
   
@@ -39,7 +39,7 @@
     margin-left: 5%;
     margin-right: 5%;
     /* margin-top: 15%; */
-      background: white;
+      background-color: white;
       border-radius: 20px;
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, .3); */
       height: 501px;
